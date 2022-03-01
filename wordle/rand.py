@@ -14,7 +14,7 @@ def initial_words():
         for row in file:
             word = row.strip()
             if len(word) == WORD_SIZE:
-                lst.append(row.strip())
+                lst.append(word)
     return lst
 
 
